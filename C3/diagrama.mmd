@@ -1,0 +1,26 @@
+erDiagram
+    MOTORISTA {
+        int id_motorista PK
+        string nome
+        string cnh
+        string telefone
+    }
+
+    FRETE {
+        int id_frete PK
+        int motorista_id FK
+        int veiculo_id FK
+        date data
+        float valor
+        string destino
+    }
+
+    VEICULO {
+        int id_veiculo PK
+        string placa
+        string modelo
+        int capacidade
+    }
+
+    MOTORISTA ||--o{ FRETE : "realiza"
+    VEICULO   ||--o{ FRETE : "utiliza"
