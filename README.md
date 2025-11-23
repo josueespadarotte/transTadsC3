@@ -7,14 +7,13 @@ MongoDB 4.0+
 
 INSTALAÇÃO DAS DEPENDÊNCIAS
 bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade 
 
 # Instalar Python e pip
-sudo apt install python3 python3-pip git -y
+sudo apt install python3 python3-pip git 
 
 # Instalar MongoDB
-sudo apt install mongodb -y
-
+sudo apt install mongodb 
 # Iniciar MongoDB
 sudo systemctl start mongodb
 sudo systemctl enable mongodb
@@ -25,12 +24,12 @@ CONFIGURAÇÃO DO PROJETO
 ESTRUTURA DE ARQUIVOS
 text
 sistema-transportadora-mongo/
-├── model/ (classes das entidades)
-├── controller/ (operações CRUD)
-├── reports/ (relatórios MongoDB)
-├── utils/ (conexão e utilidades)
-├── principal.py (arquivo principal)
-└── requirements.txt
+ model/ (classes das entidades)
+ controller/ (operações CRUD)
+ reports/ (relatórios MongoDB)
+ utils/ (conexão e utilidades)
+ principal.py (arquivo principal)
+ requirements.txt
 INSTALAÇÃO DAS DEPENDÊNCIAS PYTHON
 bash
 
