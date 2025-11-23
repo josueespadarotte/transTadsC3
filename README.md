@@ -1,10 +1,4 @@
 DOCUMENTAÇÃO DO SISTEMA DE TRANSPORTADORA - LINUX
-PRÉ-REQUISITOS
-SISTEMA OPERACIONAL
-Linux Ubuntu 18.04+ ou Debian 10+
-Python 3.8+
-MongoDB 4.0+
-
 INSTALAÇÃO DAS DEPENDÊNCIAS
 bash
 sudo apt update && sudo apt upgrade 
